@@ -1,4 +1,9 @@
 /* styles go here */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .fieldset {
   margin: 20px 0;
   padding-top: 0;

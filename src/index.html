@@ -14,7 +14,8 @@
     <form
     action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     method="post"
-    onsubmit="onSubmit()">
+    onsubmit="onSubmit()"
+    >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
         <label for="surname" class="field">
@@ -22,7 +23,8 @@
           <input
           type="text"
           id="surname"
-          name="attribute">
+          name="attribute"
+          >
         </label>
 
         <label for="name" class="field">
@@ -30,7 +32,8 @@
           <input
           type="text"
           id="name"
-          name="attribute">
+          name="attribute"
+          >
         </label>
 
         <label for="age" class="field">
@@ -41,7 +44,8 @@
           name="attribute"
           min="12"
           max="100"
-          value="12">
+          value="12"
+          >
         </label>
 
         <label for="birth" class="field">
@@ -49,7 +53,8 @@
           <input
           type="date"
           id="birth"
-          name="attribute">
+          name="attribute"
+          >
         </label>
 
         <label for="terms" class="field">
@@ -57,7 +62,8 @@
           <input
           type="checkbox"
           id="terms"
-          name="attribute">
+          name="attribute"
+          >
         </label>
 
       </fieldset>
@@ -72,7 +78,8 @@
           id="email"
           name="attribute"
           placeholder="email@example.com"
-          required>
+          required
+          >
         </label>
 
         <label for="password" class="field">
@@ -82,7 +89,8 @@
           id="password"
           name="attribute"
           minlength="5"
-          maxlength="32">
+          maxlength="32"
+          >
         </label>
 
       </fieldset>
@@ -97,8 +105,9 @@
             <input
             type="radio"
             id="cat-yes"
-            name="attribute"
-            value="yes">
+            name="cats"
+            value="yes"
+            >
             Yes
           </label>
 
@@ -106,8 +115,9 @@
             <input
             type="radio"
             id="cat-no"
-            name="attribute"
-            value="no">
+            name="cats"
+            value="no"
+            >
             No
           </label>
         </div>
@@ -117,7 +127,8 @@
           <input
           type="color"
           id="color"
-          name="attribute">
+          name="attribute"
+          >
         </label>
 
         <label for="bed-time" class="field">
@@ -125,7 +136,8 @@
           <input
           type="time"
           id="bed-time"
-          name="attribute">
+          name="attribute"
+          >
         </label>
 
         <label for="cars" class="field">
@@ -133,7 +145,8 @@
           <select
           name="attribute"
           id="cars"
-          multiple>
+          multiple
+          >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
@@ -146,7 +159,8 @@
           type="range"
           id="work"
           name="attribute"
-          value="0">
+          value="0"
+          >
         </label>
 
       </fieldset>
